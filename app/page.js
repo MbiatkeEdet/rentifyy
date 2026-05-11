@@ -204,7 +204,7 @@ export default function Home() {
     {/* Section Header */}
     <div className="text-center mb-16">
       <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-        Why Choose <span className="text-blue-400">Rentify?</span>
+        Why Choose <span className="text-blue-400">Rent-Path</span>?
       </h2>
 
       <p className="text-2xl md:text-3xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
