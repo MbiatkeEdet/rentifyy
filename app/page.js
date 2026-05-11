@@ -92,7 +92,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4">
               Find Your Dream Home
             </h2>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-2xl text-gray-600 mb-8">
               Browse thousands of properties directly from owners. Filter by location,
               price, and amenities to find exactly what you're looking for.
             </p>
@@ -101,20 +101,20 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="text-4xl mb-4">🏠</div>
-              <h3 className="text-xl font-semibold mb-2">Verified Properties</h3>
-              <p className="text-gray-600">All listings are from verified property owners</p>
+              <h3 className="text-2xl font-semibold mb-2">Verified Properties</h3>
+              <p className="text-gray-600 text-xl">All listings are from verified property owners</p>
             </div>
 
             <div>
               <div className="text-4xl mb-4">💰</div>
-              <h3 className="text-xl font-semibold mb-2">No Agent Fees</h3>
-              <p className="text-gray-600">Direct connection means no commission fees</p>
+              <h3 className="text-2xl font-semibold mb-2">No Agent Fees</h3>
+              <p className="text-gray-600 text-xl">Direct connection means no commission fees</p>
             </div>
 
             <div>
               <div className="text-4xl mb-4">⚡</div>
-              <h3 className="text-xl font-semibold mb-2">Quick Response</h3>
-              <p className="text-gray-600">Contact owners directly for faster responses</p>
+              <h3 className="text-2xl font-semibold mb-2">Quick Response</h3>
+              <p className="text-gray-600 text-xl">Contact owners directly for faster responses</p>
             </div>
           </div>
 
@@ -141,7 +141,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4">
               List Your Property Today
             </h2>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-2xl text-gray-600 mb-8">
               Reach thousands of potential tenants directly. No agents, no commissions,
               just direct connections with serious renters.
             </p>
@@ -150,20 +150,20 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-semibold mb-2">More Visibility</h3>
-              <p className="text-gray-600">Your property gets maximum exposure</p>
+              <h3 className="text-2xl font-semibold mb-2">More Visibility</h3>
+              <p className="text-gray-600 text-xl">Your property gets maximum exposure</p>
             </div>
 
             <div>
               <div className="text-4xl mb-4">💸</div>
-              <h3 className="text-xl font-semibold mb-2">Save Money</h3>
-              <p className="text-gray-600">No agent fees means more profit</p>
+              <h3 className="text-2xl font-semibold mb-2">Save Money</h3>
+              <p className="text-gray-600 text-xl">No agent fees means more profit</p>
             </div>
 
             <div>
               <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-xl font-semibold mb-2">Targeted Audience</h3>
-              <p className="text-gray-600">Connect with serious renters</p>
+              <h3 className="text-2xl font-semibold mb-2">Targeted Audience</h3>
+              <p className="text-gray-600 text-xl">Connect with serious renters</p>
             </div>
           </div>
 
@@ -207,7 +207,7 @@ export default function Home() {
         Why Choose <span className="text-blue-400">Rentify?</span>
       </h2>
 
-      <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+      <p className="text-2xl md:text-3xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
         We’re transforming the rental experience by connecting
         property owners and seekers directly with speed,
         transparency, and trust.
@@ -221,11 +221,11 @@ export default function Home() {
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-lg p-8 text-center border border-white/20 hover:-translate-y-2 hover:bg-white/15 transition-all duration-300">
         <div className="text-5xl mb-5">🔒</div>
 
-        <h3 className="text-xl font-semibold text-white mb-3">
+        <h3 className="text-2xl font-semibold text-white mb-3">
           Secure Platform
         </h3>
 
-        <p className="text-gray-200 leading-relaxed">
+        <p className="text-gray-200 text-xl leading-relaxed">
           Verified users and secure transactions for safe renting.
         </p>
       </div>
@@ -234,11 +234,11 @@ export default function Home() {
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-lg p-8 text-center border border-white/20 hover:-translate-y-2 hover:bg-white/15 transition-all duration-300">
         <div className="text-5xl mb-5">💬</div>
 
-        <h3 className="text-xl font-semibold text-white mb-3">
+        <h3 className="text-2xl font-semibold text-white mb-3">
           Direct Communication
         </h3>
 
-        <p className="text-gray-200 leading-relaxed">
+        <p className="text-gray-200 leading-relaxed text-xl">
           Chat directly with landlords and property owners instantly.
         </p>
       </div>
@@ -247,11 +247,11 @@ export default function Home() {
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-lg p-8 text-center border border-white/20 hover:-translate-y-2 hover:bg-white/15 transition-all duration-300">
         <div className="text-5xl mb-5">📱</div>
 
-        <h3 className="text-xl font-semibold text-white mb-3">
+        <h3 className="text-2xl font-semibold text-white mb-3">
           Mobile Friendly
         </h3>
 
-        <p className="text-gray-200 leading-relaxed">
+        <p className="text-gray-200 leading-relaxed text-xl">
           Browse and manage properties seamlessly on any device.
         </p>
       </div>
@@ -260,11 +260,11 @@ export default function Home() {
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-lg p-8 text-center border border-white/20 hover:-translate-y-2 hover:bg-white/15 transition-all duration-300">
         <div className="text-5xl mb-5">⭐</div>
 
-        <h3 className="text-xl font-semibold text-white mb-3">
+        <h3 className="text-2xl font-semibold text-white mb-3">
           Quality Assurance
         </h3>
 
-        <p className="text-gray-200 leading-relaxed">
+        <p className="text-gray-400 leading-relaxed text-xl">
           All properties are reviewed, verified, and highly rated.
         </p>
       </div>
@@ -274,21 +274,21 @@ export default function Home() {
 </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-gray-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <span className="text-2xl">🏠</span>
-                <span className="font-bold text-xl">Rentify</span>
+                <span className="font-bold text-xl">Rent-Path</span>
               </div>
-              <p className="text-gray-400">
+              <p className="text-gray-400 text-xl">
                 Connecting property owners and seekers directly for better rental experiences.
               </p>
             </div>
 
             <div>
-              <h3 className="font-semibold mb-4">For Property Seekers</h3>
+              <h3 className="font-semibold text-xl mb-4">For Property Seekers</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/auth/register" className="hover:text-white">Sign Up</Link></li>
                 <li><Link href="/auth/login" className="hover:text-white">Login</Link></li>
@@ -316,7 +316,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Rentify. All rights reserved.</p>
+            <p>&copy; 2026 Rent-Path. All rights reserved.</p>
           </div>
         </div>
       </footer>

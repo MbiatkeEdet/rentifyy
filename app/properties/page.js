@@ -87,10 +87,10 @@ export default function PropertiesPage() {
                 {filteredProperties.length} properties found
               </p>
             </div>
-            {user.userType === 'owner' && (
+            {user && user.userType === 'owner' && (
               <Link
                 href="/add-property"
-                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold"
+                className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 font-semibold transition-colors"
               >
                 + Add Property
               </Link>

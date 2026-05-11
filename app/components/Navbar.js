@@ -13,7 +13,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href={user ? "/properties" : "/"} className="flex items-center space-x-2">
             <span className="text-3xl">🏠</span>
-            <span className="font-bold text-2xl text-blue-600">Rentify</span>
+            <span className="font-bold text-2xl text-blue-600">Rent-Path</span>
+            
           </Link>
 
           <div className="flex space-x-4">
@@ -29,7 +30,7 @@ export default function Navbar() {
                 >
                   Browse Properties
                 </Link>
-                {user.userType === 'owner' && (
+                {user && user.userType === 'owner' && (
                   <Link
                     href="/add-property"
                     className={`px-3 py-2 rounded-md text-lg font-medium transition-colors ${
